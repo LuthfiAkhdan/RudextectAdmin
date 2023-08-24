@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Cara Menginstall website
+
+- Buka Command Prompt (Ikuti semua command di bawah)
+- git clone https://github.com/LuthfiAkhdan/RudextectAdmin.git
+- cd .\RudextectAdmin\
+- cp .env.example .env
+- composer install
+- php artisan key:generate
+- Pada .env = update DB_DATABASE dengan nama database yang sudah kamu buat
+- php artisan migrate
+- npm install & npm run dev
+- Instalasi Selesai
+
+Anda bisa register terlebih dahulu, baru login dengan email dan password yang sudah anda buat. 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
